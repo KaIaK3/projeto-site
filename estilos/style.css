@@ -94,3 +94,20 @@ footer {
     margin-top: 2rem;
     font-size: 0.9rem;
 }
+
+/* Botões */
+
+button{
+    
+    display: inline;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+
+    background-color: white;
+    border-radius: 10px;
+    padding: 0.2rem;
+    width: 150px;
+    text-align: center;
+    
+}
