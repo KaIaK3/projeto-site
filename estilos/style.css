@@ -9,6 +9,30 @@ html, body {
     height: 100%; /* o corpo ocupa a tela toda */
 }
 
+/* Menu de navegação */
+.menu {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.menu a {
+    text-decoration: none;
+    background-color: white;
+    color: #1e3a8a;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.menu a:hover {
+    background-color: #1766d4;
+    color: white;
+}
+
 /* Corpo */
 body {
     background-color: #f3f4f6;
