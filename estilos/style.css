@@ -11,9 +11,9 @@ html, body {
 
 /* Menu de navegação */
 .menu {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 1rem;
     flex-wrap: wrap;
 }
@@ -22,9 +22,9 @@ html, body {
     text-decoration: none;
     background-color: white;
     color: #1e3a8a;
-    padding: 0.6rem 1.2rem;
+    padding: 0.4rem 0.8rem;
     border-radius: 8px;
-    font-weight: 600;
+    font-weight: 900;
     transition: background-color 0.2s, color 0.2s;
 }
 
@@ -48,14 +48,14 @@ body {
 header {
     background-color: #1e3a8a;
     color: white;
-    text-align: center;
+    text-align: left;
     padding: 2rem 1rem;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
 header h1 {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.2rem;
 }
 
 /* Conteúdo principal */
@@ -66,48 +66,7 @@ main {
     flex: 1; /* ocupa o espaço livre entre header e footer */
 }
 
-/* Cards */
-.cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.5rem;
-}
 
-.card {
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    padding: 2rem;
-    width: 300px;
-    text-align: center;
-    transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 14px rgba(0,0,0,0.15);
-}
-
-.card h2 {
-    color: #1e3a8a;
-    margin-bottom: 0.5rem;
-}
-
-.card a {
-    display: inline-block;
-    margin-top: 1rem;
-    text-decoration: none;
-    color: white;
-    background-color: #1e3a8a;
-    padding: 0.5rem 1rem;
-    border-radius: 8px;
-    transition: background-color 0.2s;
-}
-
-.card a:hover {
-    background-color: #334155;
-}
 
 /* Rodapé */
 footer {
