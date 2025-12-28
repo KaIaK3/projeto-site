@@ -82,7 +82,7 @@ header p {
     color: white;
 }
 /* ===============================
-   MAIN
+    MAIN
    =============================== */
 main {
     max-width: 1200px;
@@ -113,11 +113,11 @@ main li a:hover {
 }
 
 section {
-    scroll-margin-top: 8rem;
+    scroll-margin-top: 10rem;
     max-width: 55ch;
     margin: 0 auto 3rem auto;
     text-align: left;
-    margin-bottom: 33rem;
+    margin-bottom: 15rem;
     margin-right: 30rem;
 }
 /* ===============================
